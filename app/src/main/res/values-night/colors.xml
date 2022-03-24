@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color">#06133C</color>
+    <color name="selected_item">#DFBDF1</color>
+    <color name="switchers">#027530</color>
+    <color name="black">#000000</color>
+    <color name="gray">#444343</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="for_text">@color/white</color>
+    <color name="for_bgSettings">@color/main_color</color>
+    <color name="main_invert">#029751</color>
+    <color name="drawer_bg">#0F1522</color>
+    <color name="white_black">@color/black</color>
+    <color name="white_black_third">#E1000000</color>
+    <color name="white_black_half">#74000000</color>
+    <color name="black_white">@color/white</color>
+    <color name="market_down_bg">#293260</color>
+    <color name="market_up_bg">#2140AA</color>
+    <color name="button_green_blue">#0052CC</color>
+    <color name="market_bg">#293260</color>
+    <color name="cardColor">#0B3569</color>
+    <color name="navigationView_bg">@color/main_color</color>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/back"
+        android:rotation="180"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_settings" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/about_BitaJlik"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/main_invert" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/about_Max"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp"
+            android:textAlignment="center"
+            android:textColor="@color/main_invert" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/about_Denis"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/main_invert" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

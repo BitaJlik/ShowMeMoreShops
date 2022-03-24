@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_map"
+            android:title="@string/map" />
+
+        <item
+            android:id="@+id/nav_all"
+            android:icon="@drawable/ic_find"
+            android:title="@string/stores" />
+
+    </group>
+    <item android:title="@string/User">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:icon="@drawable/ic_lock"
+                    android:title="@string/login" />
+                <item
+                    android:id="@+id/nav_add"
+                    android:checkable="false"
+                    android:icon="@drawable/ic_add_market"
+                    android:title="@string/add_market" />
+            </group>
+
+        </menu>
+    </item>
+    <item android:title="@string/geolocation">
+        <menu>
+            <item
+                android:checkable="false"
+                android:id="@+id/nav_location"
+                android:icon="@drawable/ic_location"
+                android:title="@string/find_me" />
+        </menu>
+    </item>
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:checkable="true"
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+    <item android:title="@string/exit">
+        <menu>
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>
