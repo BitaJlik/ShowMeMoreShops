@@ -1,4 +1,4 @@
-# ShowMeMoreShopps
+# ShowMeMoreShopps <Version> 0.75 </>
 ChangeLOG in Project ShowMeMoreShopping_IT_TEST_UPGRADE
 
 Debug MODE IS ON, turn OFF before release (email and pass must be NULL)
